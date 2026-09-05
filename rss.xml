@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>ZaroLauncher News</title>
+    <link>https://github.com/ArturoDev-UnrealStudios</link>
+    <description>Noticias y actualizaciones oficiales de ZaroLauncher</description>
+    <item>
+        <title>¡Bienvenido a ZaroLauncher!</title>
+        <link>https://discord.gg/G5u2M5PKsF</link>
+        <description>Gracias por usar ZaroLauncher. Únete a nuestro Discord para recibir soporte, noticias y eventos exclusivos.</description>
+        <pubDate>Sat, 05 Sep 2026 12:00:00 GMT</pubDate>
+    </item>
+</channel>
+</rss>
