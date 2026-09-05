@@ -8,17 +8,17 @@
     },
     "servers": [
         {
-            "id": "Zaro-1.20.4",
-            "name": "Zaro Minecraft (1.20.4)",
-            "description": "Servidor principal de ZaroLauncher en Minecraft 1.20.4",
+            "id": "Zaro-Fabric-1.20.4",
+            "name": "Zaro Fabric (1.20.4)",
+            "description": "Servidor oficial de ZaroLauncher con Fabric Loader 1.20.4",
             "icon": "https://launcher.zarohosting.lat/servers/server.png",
             "version": "1.0.0",
             "address": "play.zaromc.com:25565",
             "minecraftVersion": "1.20.4",
             "discord": {
-                "shortId": "Zaro 1.20.4",
+                "shortId": "Zaro Fabric",
                 "largeImageKey": "https://launcher.zarohosting.lat/servers/server.png",
-                "largeImageText": "Zaro Minecraft 1.20.4"
+                "largeImageText": "Zaro Fabric 1.20.4"
             },
             "mainServer": true,
             "autoconnect": false,
@@ -43,10 +43,137 @@
                                 "MD5": "1b064db9d9ceffed3825113c4c54fcd9",
                                 "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4/0.15.11/profile/json"
                             }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm:9.6",
+                            "name": "ASM (9.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 123598,
+                                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.6/asm-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-analysis:9.6",
+                            "name": "ASM Analysis (9.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 34041,
+                                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-commons:9.6",
+                            "name": "ASM Commons (9.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 72413,
+                                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-tree:9.6",
+                            "name": "ASM Tree (9.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 51996,
+                                "MD5": "a823c9cead4bf705c58a5ae01c1071d5",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-util:9.6",
+                            "name": "ASM Util (9.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 91845,
+                                "MD5": "5123d5a2d6a7d5df2f04e1329a279c13",
+                                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+                            "name": "Sponge Mixin (0.12.5)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 1395914,
+                                "MD5": "bdf2df89429b68516d2ca0157fa96d42",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:tiny-remapper:0.8.6",
+                            "name": "Tiny Remapper (0.8.6)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 257741,
+                                "MD5": "04bf4917eb733c7f6aa55a4e3fae83f0",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/tiny-remapper/0.8.6/tiny-remapper-0.8.6.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+                            "name": "Tiny Mappings Parser",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 39396,
+                                "MD5": "5ea5882e36d4f9b8c2579df6aa882c9e",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:access-widener:2.1.0",
+                            "name": "Access Widener (2.1.0)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 20496,
+                                "MD5": "6d9b9a65d773c88b0ea77f59d584346a",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar"
+                            }
+                        },
+                        {
+                            "id": "net.fabricmc:intermediary:1.20.4",
+                            "name": "Fabric Intermediary (1.20.4)",
+                            "type": "Library",
+                            "classpath": true,
+                            "artifact": {
+                                "size": 526279,
+                                "MD5": "91a1355152541434316629ca887a0578",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+                            }
                         }
                     ]
                 }
             ]
+        },
+        {
+            "id": "Zaro-Vanilla-1.20.4",
+            "name": "Zaro Vanilla (1.20.4)",
+            "description": "Minecraft Vanilla 1.20.4 limpio y rápido",
+            "icon": "https://launcher.zarohosting.lat/servers/server.png",
+            "version": "1.0.0",
+            "address": "play.zaromc.com:25565",
+            "minecraftVersion": "1.20.4",
+            "discord": {
+                "shortId": "Zaro Vanilla",
+                "largeImageKey": "https://launcher.zarohosting.lat/servers/server.png",
+                "largeImageText": "Zaro Vanilla 1.20.4"
+            },
+            "mainServer": false,
+            "autoconnect": false,
+            "modules": []
         }
     ]
 }
