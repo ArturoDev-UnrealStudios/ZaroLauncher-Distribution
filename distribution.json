@@ -8,7 +8,7 @@
     },
     "servers": [
         {
-            "id": "Zaro-Vanilla-1.20.4",
+            "id": "Zaro-1.20.4",
             "name": "Zaro Minecraft (1.20.4)",
             "description": "Servidor principal de ZaroLauncher en Minecraft 1.20.4",
             "icon": "https://launcher.zarohosting.lat/servers/server.png",
@@ -22,7 +22,31 @@
             },
             "mainServer": true,
             "autoconnect": false,
-            "modules": []
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.15.11",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "classpath": true,
+                    "artifact": {
+                        "size": 1327691,
+                        "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "1.20.4-fabric-0.15.11",
+                            "name": "Fabric Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2849,
+                                "MD5": "1b064db9d9ceffed3825113c4c54fcd9",
+                                "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4/0.15.11/profile/json"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
